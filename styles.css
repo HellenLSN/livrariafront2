@@ -43,9 +43,9 @@ p {
 }
 
 .card p {
+  color: #475569;
   font-size: 0.95rem;
 }
-
 
 .destaque {
   border-left: 5px solid darkblue;
@@ -61,5 +61,17 @@ p {
   padding: 0.5rem 1.25rem;
   border: none;
   border-radius: 999px;
+  cursor: pointer;
 }
 
+.btn:hover {
+  background-color: #00005c;
+}
+
+.btn-primary {
+  background-color: darkgreen;
+}
+
+.btn.btn-primary:hover {
+  background-color: #004d00;
+}
